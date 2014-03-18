@@ -106,7 +106,7 @@
 <plain>
 </plain>
 <instances>
-<instance part="GND1" gate="1" x="2.54" y="17.78" rot="R90"/>
+<instance part="GND1" gate="1" x="2.54" y="17.78" rot="R180"/>
 </instances>
 <busses>
 </busses>
