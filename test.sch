@@ -126,12 +126,18 @@
 <plain>
 </plain>
 <instances>
-<instance part="P+1" gate="1" x="25.4" y="86.36"/>
-<instance part="GND1" gate="1" x="25.4" y="68.58"/>
+<instance part="P+1" gate="1" x="0" y="20"/>
+<instance part="GND1" gate="1" x="0" y="0"/>
 </instances>
 <busses>
 </busses>
 <nets>
+<net name="GND" class="0">
+<segment>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="0" y1="17.78" x2="0" y2="2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
